@@ -1,0 +1,82 @@
+[    
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBPV3",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBPV3/plot",
+        "files": {
+            "SVM":"classinfo_LBP_SVCRBF_SIMP_None.json",
+            "GBD":"classinfo_LBP_XGBC_SIMP_None.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"radius",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP_SVC_XGBC_SIMP_None",
+        "type":"simple"
+    },
+
+
+
+    
+
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/RADV3",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/RADV3/plot",
+        "files": {
+            "SVM":"classinfo_RAD_SVCRBF_SIMP_None.json",
+            "GBD":"classinfo_RAD_XGBC_SIMP_None.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"RAD_SVC_XGBC_SIMP_None",
+        "type":"simple"
+    },
+
+
+
+
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV3",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV3/plot",
+        "files": {
+            "SVM":"classinfo_LBP+RAD_SVCRBF_SIMP_None.json",
+            "GBD":"classinfo_LBP+RAD_XGBC_SIMP_None.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RAD_SVC_XGBC_SIMP_None",
+        "type":"simple"
+    },
+
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV3/plot",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV3/plot",
+        "file": "LBP+RADtime.csv",
+        "metric":"f1",
+        "ylabel":"time (s)",
+        "xlabel":"tile",
+        "ylim":[],
+        "filename":"LBP+RADtime",
+        "legendloc":"upper right",
+        "type":"fromcvsfile"
+    },
+
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV3/plot",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV3/plot",
+        "file": "LBP+RADfeaturestime.csv",
+        "metric":"f1",
+        "ylabel":"time (s)",
+        "xlabel":"tile",
+        "ylim":[10,41],
+        "filename":"LBP+RADfeaturestime",
+        "legendloc":"upper right",
+        "islogy":false,
+        "type":"fromcvsfile"
+    }
+
+]
+

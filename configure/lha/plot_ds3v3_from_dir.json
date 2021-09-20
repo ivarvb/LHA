@@ -1,0 +1,20 @@
+[    
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV3/FS",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV3/plot",
+        "files": {
+            "SVM":"classinfo_LBP+RADV3_SVCRBF_FESE_None.json"
+        },
+        "from":5,
+        "to":35,
+        "increment":5,
+        "metric":"f1",
+        "ylabel":"F-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RADV1_FS_DIR",
+        "type":"fromdir"
+    }
+
+]
+

@@ -1,0 +1,36 @@
+[
+    {
+        "descriptor":"LBP",
+        "inputdir":"../../../../data/lha/dataset_3",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBPV3",
+        "grayscaledir":"grayscale",
+        "masksdir":"masks/erode_radius_30",
+        "maskstilesdir":"build/tiles/erode_radius_30",
+        "tilepercentage":0.01, 
+        "parameters":[
+            {"tile_size":200, "radius":6},
+            {"tile_size":200, "radius":7},
+            {"tile_size":200, "radius":8},
+            {"tile_size":200, "radius":9},
+            {"tile_size":200, "radius":10},
+
+            {"tile_size":300, "radius":6},
+            {"tile_size":300, "radius":7},
+            {"tile_size":300, "radius":8},
+            {"tile_size":300, "radius":9},
+            {"tile_size":300, "radius":10},
+
+            {"tile_size":400, "radius":6},
+            {"tile_size":400, "radius":7},
+            {"tile_size":400, "radius":8},
+            {"tile_size":400, "radius":9},
+            {"tile_size":400, "radius":10},
+
+            {"tile_size":500, "radius":6},
+            {"tile_size":500, "radius":7},
+            {"tile_size":500, "radius":8},
+            {"tile_size":500, "radius":9},
+            {"tile_size":500, "radius":10}
+        ]
+    }
+]

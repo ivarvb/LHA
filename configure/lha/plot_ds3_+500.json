@@ -1,0 +1,41 @@
+[    
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1/plot",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1/plot",
+        "file": "LBP+RAD+500V1.csv",
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RAD+500V1",
+        "type":"fromcvsfile"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1/plot",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1/plot",
+        "file": "LBP+RAD+500V1time.csv",
+        "metric":"f1",
+        "ylabel":"time (s)",
+        "xlabel":"tile",
+        "ylim":[],
+        "filename":"LBP+RAD+500V1time",
+        "legendloc":"upper right",
+        "type":"fromcvsfile"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1/plot",
+        "files": {
+            "SVM":"classinfo_LBP+RAD500V1_SIMP_None.json",
+            "GBD":"classinfo_LBP+RAD500V1_XGBC_SIMP_None.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RADV1",
+        "type":"simple"
+    }
+
+]
+

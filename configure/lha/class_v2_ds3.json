@@ -1,0 +1,19 @@
+[
+    
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBPV2",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBPV2",
+        "isfeatureselection":false
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/RADV2",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/RADV2",
+        "isfeatureselection":false
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV2",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV2",
+        "isfeatureselection":false
+    }
+]
+

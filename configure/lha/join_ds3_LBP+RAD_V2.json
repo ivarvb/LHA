@@ -1,0 +1,10 @@
+
+[    
+    {
+        "inputdira":"../../../../data/lha/dataset_3/build/csv/LBPV2",
+        "inputdirb":"../../../../data/lha/dataset_3/build/csv/RADV2",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV2",
+        "type":"joinfeatures"
+    }    
+]
+

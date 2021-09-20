@@ -1,0 +1,14 @@
+[
+    {
+        "inputdir":"../../../../data/lha/dataset_3",
+        "outputdir":"../../../../data/lha/dataset_3/build/tiles",
+        "name":"tile",
+        "grayscaledir":"grayscale",
+        "masksdir":"masks",
+        "maskstilesdir":"tiles",
+        "tilesize":[200,300,400,500],
+        "tilepercentage":0.01,
+        "erode":[30]
+
+    }
+]

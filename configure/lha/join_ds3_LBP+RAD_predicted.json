@@ -1,0 +1,31 @@
+
+[    
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "file":"classinfo_LBP+RADV1_SVCRBF_GS_SIMP_None.json",
+        "type":"joinpredicted"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "file":"classinfo_LBP+RADV1_XGBC_GS_SIMP_None.json",
+        "type":"joinpredicted"
+    },
+
+
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1",
+        "file":"classinfo_LBP+RAD500V1_SVCRBF_SIMP_None.json",
+        "type":"joinpredicted"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RAD500V1",
+        "file":"classinfo_LBP+RAD500V1_XGBC_SIMP_None.json",
+        "type":"joinpredicted"
+    }
+
+]
+

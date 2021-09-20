@@ -1,0 +1,15 @@
+[
+    {
+        "descriptor":"RAD",
+        "inputdir":"../../../../data/lha/dataset_3",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/RADV1",
+        "grayscaledir":"grayscale",
+        "masksdir":"masks/erode_radius_30",
+        "maskstilesdir":"build/tiles/erode_radius_30",    
+        "parameters":[
+            {"tile_size":200},
+            {"tile_size":300},
+            {"tile_size":400}
+        ]
+    }
+]

@@ -1,0 +1,166 @@
+[    
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBPV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBPV1/plot",
+        "files": {
+            "SVM":"classinfo_LBPV1_SVCRBF_GS_SIMP_None.json",
+            "GBD":"classinfo_LBPV1_XGBC_GS_SIMP_None.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"radius",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP_SVC_XGBC_SIMP_None",
+        "type":"simple"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBPV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBPV1/plot",
+        "files": {
+            "SVM":"classinfo_LBPV1_SVCRBF_GS_SIMP_RandomOverSampler.json",
+            "GBD":"classinfo_LBPV1_XGBC_GS_SIMP_RandomOverSampler.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"radius",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP_SVC_XGBC_SIMP_RandomOverSampler",
+        "type":"simple"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBPV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBPV1/plot",
+        "files": {
+            "SVM":"classinfo_LBPV1_SVCRBF_GS_GRID_RandomOverSampler.json",
+            "GBD":"classinfo_LBPV1_XGBC_GS_GRID_RandomOverSampler.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"radius",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP_SVC_XGBC_GRID_RandomOverSampler",
+        "type":"simple"
+    },
+
+
+    
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/RADV1/plot",
+        "files": {
+            "SVM":"classinfo_RADV1_SVCRBF_GS_SIMP_None.json",
+            "GBD":"classinfo_RADV1_XGBC_GS_SIMP_None.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"RAD_SVC_XGBC_SIMP_None",
+        "type":"simple"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/RADV1/plot",
+        "files": {
+            "SVM":"classinfo_RADV1_SVCRBF_GS_SIMP_RandomOverSampler.json",
+            "GBD":"classinfo_RADV1_XGBC_GS_SIMP_RandomOverSampler.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"RAD_SVC_XGBC_SIMP_RandomOverSampler",
+        "type":"simple"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/RADV1/plot",
+        "files": {
+            "SVM":"classinfo_RADV1_SVCRBF_GS_GRID_RandomOverSampler.json",
+            "GBD":"classinfo_RADV1_XGBC_GS_GRID_RandomOverSampler.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"RAD_SVC_XGBC_GRID_RandomOverSampler",
+        "type":"simple"
+    },
+
+
+    
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1/plot",
+        "files": {
+            "SVM":"classinfo_LBP+RADV1_SVCRBF_GS_SIMP_None.json",
+            "GBD":"classinfo_LBP+RADV1_XGBC_GS_SIMP_None.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RAD_SVC_XGBC_SIMP_None",
+        "type":"simple"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1/plot",
+        "files": {
+            "SVM":"classinfo_LBP+RADV1_SVCRBF_GS_SIMP_RandomOverSampler.json",
+            "GBD":"classinfo_LBP+RADV1_XGBC_GS_SIMP_RandomOverSampler.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RAD_SVC_XGBC_SIMP_RandomOverSampler",
+        "type":"simple"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1/plot",
+        "files": {
+            "SVM":"classinfo_LBP+RADV1_SVCRBF_GS_CROSS_None.json",
+            "GBD":"classinfo_LBP+RADV1_XGBC_GS_CROSS_None.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RAD_SVC_XGBC_CROSS_None",
+        "type":"simple"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1/plot",
+        "files": {
+            "SVM":"classinfo_LBP+RADV1_SVCRBF_GS_CROSS_RandomOverSampler.json",
+            "GBD":"classinfo_LBP+RADV1_XGBC_GS_CROSS_RandomOverSampler.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RAD_SVC_XGBC_CROSS_RandomOverSampler",
+        "type":"simple"
+    },
+    {
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1/plot",
+        "files": {
+            "SVM":"classinfo_LBP+RADV1_SVCRBF_GS_FESE_RandomOverSampler.json",
+            "GBD":"classinfo_LBP+RADV1_XGBC_GS_FESE_RandomOverSampler.json"
+        },
+        "metric":"f1",
+        "ylabel":"f1-score",
+        "xlabel":"tile",
+        "ylim":[0.6, 1.0],
+        "filename":"LBP+RAD_SVC_XGBC_FESE_RandomOverSampler",
+        "type":"simple"
+    }
+
+    
+    
+]
+

@@ -1,0 +1,27 @@
+[
+    {
+        "descriptor":"LBP",
+        "inputdir":"../../../../data/lha/dataset_3",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP450500V1",
+        "grayscaledir":"grayscale",
+        "masksdir":"masks/erode_radius_30",
+        "maskstilesdir":"build/tiles/erode_radius_30",    
+        "parameters":[
+
+            {"tile_size":450, "radius":5},
+            {"tile_size":450, "radius":6},
+            {"tile_size":450, "radius":7},
+            {"tile_size":450, "radius":8},
+            {"tile_size":450, "radius":9},
+            {"tile_size":450, "radius":10},
+
+            {"tile_size":500, "radius":5},
+            {"tile_size":500, "radius":6},
+            {"tile_size":500, "radius":7},
+            {"tile_size":500, "radius":8},
+            {"tile_size":500, "radius":9},
+            {"tile_size":500, "radius":10}
+
+        ]
+    }
+]

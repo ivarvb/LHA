@@ -1,0 +1,22 @@
+
+[    
+    {
+        "inputdira":"../../../../data/lha/dataset_1/build/csv/LBPV1",
+        "inputdirb":"",
+        "outputdir":"../../../../data/lha/dataset_1/build/csv/LBPV2",
+        "type":"joinresample"
+    },
+    {
+        "inputdira":"../../../../data/lha/dataset_1/build/csv/RADV1",
+        "inputdirb":"",
+        "outputdir":"../../../../data/lha/dataset_1/build/csv/RADV2",
+        "type":"joinresample"
+    },
+    {
+        "inputdira":"../../../../data/lha/dataset_1/build/csv/LBP+RADV1",
+        "inputdirb":"",
+        "outputdir":"../../../../data/lha/dataset_1/build/csv/LBP+RADV2",
+        "type":"joinresample"
+    }    
+]
+

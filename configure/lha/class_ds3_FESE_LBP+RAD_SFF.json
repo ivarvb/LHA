@@ -1,0 +1,34 @@
+[
+    
+    {
+        "id":"LBP+RADV1_SVCRBF_SFSK",
+        "inputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "outputdir":"../../../../data/lha/dataset_3/build/csv/LBP+RADV1",
+        "filter": {
+            "train_LBP_tile_size_400_radius_10.csv":{"id":400,"sampling":1.0}
+        },
+        "classifiers":{
+            "SVCRBF":{
+                "modelparameters":{ 
+        
+                },
+                "gridsearch":{
+                    "gridparameters":{
+                        "C": [1, 10, 100, 1000, 10000],
+                        "gamma": [0.0001, 0.0005, 0.001, 0.005, 0.01, 0.1, "scale", "auto"]
+                    },
+                    "scoring":"accuracy",
+                    "n_jobs":1
+                }
+            }
+        },
+        "norms":["std"],
+        "featureselection":{"name":"fs_mlxtend_sequential_forward_floating","n_features":50, "estimator":"RFC"},
+        "ismultiprocessing":false,
+        "usebestparameters":false,
+        "usefeatureselected":false,
+        "balancing":"RandomOverSampler",
+        "type":"FESE"
+    }
+]
+
